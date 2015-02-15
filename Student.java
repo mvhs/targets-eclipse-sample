@@ -39,8 +39,7 @@ public class Student {
 	}
 	
 	public void setGPA(double gpa){
-		// Set the Student's gpa if 0.0 <= gpa <= 5.0
-		// If not, do nothing
+		// Set the Student's gpa
 	}
 	
 	public String getGradeString(){
