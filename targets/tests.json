@@ -1,0 +1,39 @@
+{
+    "name": "Eclipse Targets Sample",
+    "owner": "mvhs",
+    "id": "eclipse-sample",
+    "files": [
+        "Student.java"
+    ],
+    "language": "java",
+    "tests": [
+        {
+            "name": "Basic Functionality",
+            "args": "basic",
+            "output": "",
+            "run": "TestStudent.java",
+            "points": 4
+        },
+        {
+            "name": "Grade String",
+            "args": "gradestring",
+            "output": "",
+            "run": "TestStudent.java",
+            "points": 1
+        },
+        {
+            "name": "Sorting",
+            "args": "sort",
+            "output": "",
+            "run": "TestStudent.java",
+            "points": 3
+        },
+        {
+            "name": "Average",
+            "args": "average",
+            "output": "",
+            "run": "TestStudent.java",
+            "points": 2
+        }
+    ]
+}
